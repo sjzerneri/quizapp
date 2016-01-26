@@ -1,0 +1,148 @@
+/* CSS reset
+(all the browsers will see the website in the same by setting every tag to 0 (the website will look the same on all browsers))
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    /*The box-sizing property is used to tell the browser what the sizing properties (width and height) should include border-box.*/
+    box-sizing: border-box;
+    /*reset Chrome user agent styles*/
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-before: 0px;
+    -webkit-padding-after: 0px;
+    -webkit-padding-start: 0px;
+    -webkit-padding-end: 0px;
+}
+
+
+/* General styles
+(the styles used everywhere in the page (like the Body) or styles which are used in more than 2 of the modules bellow (h2, h3, h4, h5, h6, p, a, ul, li))
+*/
+
+html {
+    background: rgba(0, 0, 0, 0) url("../images/gilettestadium.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+
+/* Header styles
+(all the styles inside the < header > or < nav > tags)
+*/
+
+header {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #D6D6D6;
+}
+
+section {
+    margin-top: -4rem;
+    margin-bottom: 4rem;
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid #0D254C;
+    background-color: #D6D6D6;
+    text-align: center;
+    display: none;
+    color: #0D254C;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-top: 0rem;
+    padding-top: 2.2rem;
+    margin-bottom: 1.2rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    margin-bottom: 1.2rem;
+}
+
+h4 {
+    margin-bottom: 1.2rem;
+}
+
+li {
+    text-align: left;
+    margin-bottom: 1.2rem;
+    list-style-type: none;
+    font-size: 1rem;
+}
+
+li input {
+    margin-right: .5rem;
+}
+
+ul {
+    width: 15rem;
+    margin: 0 auto;
+}
+
+button {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+    background-color: transparent;
+    border: 3px solid #C80815;
+    color: #C80815;
+    font-weight: 800;
+    border-radius: 2rem;
+}
+
+button:hover {
+    background-color: #0D254C;
+    color: #FFFFFF;
+    border: 3px solid #0D254C;
+}
+
+img {
+    height: 5rem;
+    margin-left: 4rem;
+}
+
+
+/* Content styles
+(all the styles inside the < sections > or < aside > tags)
+*/
+
+.start {
+    color: white;
+}
+
+.questions button {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: .5rem;
+}
+
+.results-section button {
+    margin-top: .2rem;
+    margin-bottom: .2rem;
+    padding: .8rem;
+}
+
+
+/* Footer styles
+(all the styles inside the < footer > tag)
+*/
+
+
+/* Responsive styles
+(the very last module in the CSS, contains all the media queries and it is dealing with the compatibility with mobiles and tablets)
+*/
