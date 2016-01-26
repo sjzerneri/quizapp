@@ -103,6 +103,9 @@ $(document).ready(function () {
         $('.quiz-section').hide();
         $('.results-section').hide();
         $('.start-section').show();
+        questionNumber = 0;
+        correctAnswers = 0;
+
         questionView();
     });
 });
