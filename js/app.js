@@ -39,6 +39,13 @@ $(document).ready(function () {
             correct: 0,
             correctDetails: 'Rex Ryan took over the coaching job for the Buffalo Bills after leaving the New York Jets.'
         },
+        //Question 6
+        {
+            question: 'Who is the coach of the Denver Broncos?',
+            choices: ['Rex Ryan', 'Bill Belicheck', 'Mike Ditka', 'Gary Kubiak'],
+            correct: 3,
+            correctDetails: 'Gary Kubiak is the coach of the Denver Broncos.'
+        },
     ];
 
     //Total questions variable
